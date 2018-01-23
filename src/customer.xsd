@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+            jxb:version="2.0">
+            
+	<xsd:element name="customer">   
+    	<xsd:complexType>	
+			<xsd:sequence>
+				<xsd:element name="first_name" minOccurs="0" type="xsd:string" />
+				<xsd:element name="middle_name" minOccurs="0" type="xsd:string" />
+				<xsd:element name="last_name" minOccurs="0" type="xsd:string" />
+				<xsd:element name="customer_phone" minOccurs="0" type="xsd:string" />
+				<xsd:element name="customer_email" minOccurs="0" type="xsd:string" />
+				<xsd:element name="other_customer_details" minOccurs="0" type="xsd:string" />
+				<xsd:element name="address_line_1" minOccurs="0" type="xsd:string" />
+				<xsd:element name="address_line_2" minOccurs="0" type="xsd:string" />
+				<xsd:element name="address_line_3" minOccurs="0" type="xsd:string" />
+				<xsd:element name="city" minOccurs="0" type="xsd:string" />
+				<xsd:element name="state_province_country" minOccurs="0" type="xsd:string" />
+				<xsd:element name="zip_postcode" minOccurs="0" type="xsd:string" />
+				<xsd:element name="iso_country_code" minOccurs="0" type="xsd:string" />
+				<xsd:element name="other_address_details" minOccurs="0" type="xsd:string" />
+		    </xsd:sequence>
+		</xsd:complexType>
+	</xsd:element> 
+</xsd:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+            jxb:version="2.0">   
+            
+	<xsd:element name="order">   
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="order_id" minOccurs="0" type="xsd:int" />
+				<xsd:element name="card_number" minOccurs="0" type="xsd:int" />
+				<xsd:element name="delivery_status" minOccurs="0" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>         
+</xsd:schema>
